@@ -1,0 +1,22 @@
+body{
+    height: fit-content;
+}
+.container__link{
+  margin-bottom: 0;
+   
+}
+.container__two{
+  margin-top: 150px;
+}
+ .container__five{
+   margin-top: 0;
+   overflow: auto;
+ }
+ @media (max-width: 780px){
+    .content__left{
+        display: block;
+    }
+ .container__two__content{
+  display: block;
+ }
+ }

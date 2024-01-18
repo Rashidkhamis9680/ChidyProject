@@ -1,0 +1,19 @@
+body{
+    height: fit-content;
+}
+ .hero{
+    position: sticky;
+    top: 0;
+ }
+ #close{
+    display: none;
+ }
+ .open{
+    display: none;
+    cursor: pointer;
+ }
+ @media (max-width: 768px){
+    .open{
+       display: inline-block;
+    }
+ }

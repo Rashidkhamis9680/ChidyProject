@@ -1,0 +1,147 @@
+body{
+    height: fit-content;
+    scroll-behavior: smooth;
+    background-color: aliceblue;
+}
+.nav__bar{
+   max-width: 1100px;
+   height: 80px;
+   margin: 0 auto;
+   background-color: inherit;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 40px;
+   color: inherit;
+   z-index: 11000;
+   /*  */
+    
+    
+}
+#close{
+   display: none;
+}
+.open{
+   display: none;
+   cursor: pointer;
+}
+
+.sun{
+   display: none;
+   cursor: pointer;
+}
+.moon{
+   cursor: pointer;
+}
+@media (max-width: 768px){
+   .open{
+      display: inline-block;
+   }
+}
+.main__header{
+   text-align: center;
+   margin-top: 140px;
+}
+.contact{
+   text-align: center;
+   font-size: 35px;
+   margin-top: 30px;
+}
+ .main__main-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+    gap: 40px;
+    align-items: center;
+    max-width: 69rem;
+    /* height: 90vh; */
+    /* margin: 0 50px; */
+    margin: 60px auto;
+    padding: 40px;
+    /* background-color: aqua; */
+ }
+ .main__container{
+    width:  440px;
+    height: 200px;
+    box-shadow:  0 3px 20px rgba(0,0,0,0.2); 
+    border-radius: 10px;
+    margin:  auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 10;
+    /* background-color: blue; */
+     
+ }
+ .main__container:hover{
+   background-color: rgba(173, 143, 245, 0.3);
+   z-index: 1;
+ }
+ .daver{
+   position: absolute;
+   right: 40px;
+   width: 90px;
+   height: 90px;
+   background-color: aquamarine;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   background-color: transparent;
+   color: transparent;
+
+ }
+ .information{
+   color: inherit;
+ }
+ .information .icon__icon{
+   color: inherit;
+ }
+ 
+ @media (max-width: 967px) {
+  
+    .main__main-container{
+      display: grid;
+      grid-template-columns: 1fr;
+      height: fit-content;
+      margin: 60px auto;
+     
+      
+   }
+   .main__container{
+      margin: 0 auto;
+      width: 440px;
+      position: relative;
+      /* z-index: 10; */
+  
+   }
+   
+   
+   .icon__fives{
+      display: inline-block;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 4rem;
+      font-size: 90px;
+    
+    }
+ }
+ .information{
+   position: relative; 
+   
+   
+ }
+ .information div{
+    height: 40px;
+ }
+ .icon__icon {  
+   display: flex;
+   justify-content: space-between;
+ }
+ .icon__fives{
+   display: none;
+ }
+ .image img{
+   border-radius: 10px;
+ }
+ 
+ 
